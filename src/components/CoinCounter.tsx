@@ -37,7 +37,6 @@ function CoinCounter({ showAction, updateCoin, index, value }) {
       <Button onClick={() => updateCoin(index, value - 7)}>
         {showAction ? 'Coup (-7)' : '-7'}
       </Button>
-      <div>{name}</div>
     </div>
   );
 }
